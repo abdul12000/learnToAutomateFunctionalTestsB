@@ -1,6 +1,8 @@
 package stepDef;
 
 import base.BaseUtil;
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -58,4 +60,9 @@ public class MortgageCalcStepDef extends BaseUtil {
 
     }
 
+    @And("^the correct msg is displayed$")
+    public void theCorrectMsgIsDisplayed() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
 }
